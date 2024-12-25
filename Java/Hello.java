@@ -192,7 +192,8 @@
 //     }
 // }
 
-import java.util.*;;
+
+import java.util.*;
 public class Hello{
 
     public static float sumOfTwo(float a , float b) {
@@ -202,9 +203,16 @@ public class Hello{
         // float b = sc.nextFloat();
 
         float sum = a + b ;
-        System.out.println("sum of" + a + "and " + b + "is " + sum);
+        System.out.println("sum of " + a + " and " + b + " is " + sum);
         return sum;
     }
+
+    public static float multiply(float numb1 , float num2) {
+        float product = numb1 * num2 ;
+return product;
+    }
+
+    
 
     public static void main(String[] args){
 
@@ -219,3 +227,5 @@ public class Hello{
 
     }
 }
+
+
